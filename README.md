@@ -10,5 +10,5 @@ Is a console application with:
 ```java
 private static final int MAPSIZE = 8;
 ```
-* set ```java int from ``` to -1 for exit;
-* set ```java int from ``` to -2 for new map;
+* set ```int from ``` to -1 for exit;
+* set ```int from ``` to -2 for new map;
