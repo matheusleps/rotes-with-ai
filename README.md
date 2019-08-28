@@ -1,4 +1,4 @@
-# Rotes-with-ai
+# Routes-with-ai
 Connect cities with artificial intelligence using Java.
 
 ## Interface
