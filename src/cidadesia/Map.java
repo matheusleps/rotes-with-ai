@@ -96,7 +96,7 @@ public class Map {
         }
     }
     public void cityToCity(int current, int destination){  
-        if(current!=-1){
+        if(failIndex<MAPSIZE){
             if(verifyDestination(current, destination)){
                 road[roadIndex] = current;
                 road[roadIndex+1] = destination;
@@ -113,7 +113,6 @@ public class Map {
             }
         }
         else{
-            for(int i=0; failureRoad[i]!=-1; i++) System.out.print(failureRoad[i]);
             System.out.println("Impossível encontrar o caminho.");
         }
     }
